@@ -1,4 +1,5 @@
 ﻿using Maui_Counter.ViewModel;
+using Maui_Counter.View;
 using Microsoft.Extensions.Logging;
 using Microsoft.Maui.Controls.Compatibility.Hosting;
 
@@ -16,7 +17,7 @@ namespace Maui_Counter
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 });
 
-            builder.Services.AddSingleton<View.MainPage>();
+            builder.Services.AddSingleton<MainPage>();
             builder.Services.AddSingleton<MainViewModel>();
 
             return builder.Build();
