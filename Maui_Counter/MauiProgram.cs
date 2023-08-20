@@ -16,7 +16,7 @@ namespace Maui_Counter
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 });
 
-            builder.Services.AddSingleton<MainPage>();
+            builder.Services.AddSingleton<View.MainPage>();
             builder.Services.AddSingleton<MainViewModel>();
 
             return builder.Build();

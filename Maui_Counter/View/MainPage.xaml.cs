@@ -1,6 +1,6 @@
 ﻿using Maui_Counter.ViewModel;
 
-namespace Maui_Counter
+namespace Maui_Counter.View
 {
     public partial class MainPage : ContentPage
     {

@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:vm="clr-namespace:Maui_Counter.ViewModel"
-             x:Class="Maui_Counter.MainPage"
+             x:Class="Maui_Counter.View.MainPage"
              x:DataType="vm:MainViewModel"
              Title="Counter">
 
