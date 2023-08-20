@@ -8,7 +8,7 @@ using CommunityToolkit.Mvvm.Input;
 
 namespace Maui_Counter.ViewModel
 {
-    public partial class MainViewModel:ObservableObject
+    public partial class MainViewModel : ObservableObject
     {
         private int _counter;
         public MainViewModel()
@@ -32,6 +32,13 @@ namespace Maui_Counter.ViewModel
         {
             _counter--;
             PresentNum = _counter.ToString();
+        }
+
+        [RelayCommand]
+        public void Reset()
+        {
+            _counter = 0;
+            PresentNum = 0.ToString();
         }
     }
 }
